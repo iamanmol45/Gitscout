@@ -1,152 +1,36 @@
-# GITSCOUT
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A platform for evaluating GitHub repositories through health scoring, team rankings, risk assessment, and engineering quality metrics.
+## Getting Started
 
-## Problem
+First, run the development server:
 
-Engineering teams often manage multiple repositories, making it difficult to consistently assess project quality, documentation standards, maintainability, and overall repository health.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Repository Health Analyzer provides a centralized view of repository quality and enables comparison across teams through measurable engineering metrics.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Solution
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-The platform analyzes repository metadata and engineering indicators to generate:
+## Learn More
 
-* Repository Health Scores
-* Team Rankings
-* Risk Assessments
-* Documentation Metrics
-* Maintainability Metrics
-* Improvement Recommendations
+To learn more about Next.js, take a look at the following resources:
 
-Results are displayed through an interactive dashboard.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Features
+## Deploy on Vercel
 
-* Repository health analysis
-* Team ranking dashboard
-* Risk level assessment
-* Documentation scoring
-* Maintainability scoring
-* Repository comparison
-* Actionable recommendations
-* Interactive team insights
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-## Architecture
-
-GitHub Repository
-↓
-n8n Workflow
-↓
-Repository Analysis Engine
-↓
-Metric Calculation
-↓
-Team Ranking System
-↓
-Dashboard
-
----
-
-## Technology Stack
-
-### Frontend
-
-* Next.js
-* React
-* TypeScript
-
-### Automation
-
-* n8n
-
-### Integrations
-
-* GitHub API & Gitlab 
-
-### Infrastructure
-
-* Docker
-
----
-
-## Dashboard Overview
-
-The dashboard provides:
-
-* Team rankings
-* Repository health metrics
-* Documentation scores
-* Maintainability scores
-* Risk assessments
-* Repository summaries
-* Recommendations
-
-Users can select a team from the ranking chart to view detailed analysis.
-
----
-
-## Repository Metrics
-
-The platform evaluates repositories using indicators such as:
-
-* README presence
-* Docker support
-* Test coverage indicators
-* GitHub Actions workflows
-* Licensing information
-* Repository structure
-
----
-
-## Workflow
-
-The complete n8n workflow is available at:
-
-workflows/repository-health-analyzer.json
-
-Import this file into n8n to reproduce the workflow.
-
----
-
-## Screenshots
-
-### Dashboard
-
-(Add dashboard screenshot)
-
-### Team Rankings
-
-(Add ranking screenshot)
-
-### Repository Analysis
-
-(Add analysis screenshot)
-
-### n8n Workflow
-
-(Add workflow screenshot)
-
----
-
-## Future Improvements
-
-* Historical trend analysis
-* Security scanning
-* Dependency analysis
-* Pull request quality metrics
-* Organization-wide reporting
-* Real-time repository monitoring
-
----
-
-## Hackathon Submission
-
-Built as part of the Google Cloud Agentic AI Hackathon.
-### Dashbaord 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

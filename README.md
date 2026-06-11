@@ -1,4 +1,4 @@
-# Repository Health Analyzer
+# GITSCOUT
 
 A platform for evaluating GitHub repositories through health scoring, team rankings, risk assessment, and engineering quality metrics.
 
